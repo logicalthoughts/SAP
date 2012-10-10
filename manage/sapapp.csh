@@ -19,7 +19,7 @@ if ($?ORACLE_SID) then
         set orasid = `echo $ORACLE_SID|tr "[A-Z]" "[a-z]"`adm
 else
         set orasid = notorasid
-        echo "\033[31mSAP Environment not properly set.  Make sure SAP is installed"
+        echo "\033[31mSAP Environment not properly set.  Make sure SAP is installed\033[37m"
 endif
 
 # Only run this script if the user is <sid>adm
