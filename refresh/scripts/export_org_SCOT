@@ -1,0 +1,10 @@
+Export
+FILE='/usr/sap/trans/refresh/saved_tables/Saved_Table_SCOT_BAK'
+CLIENT=100
+delete from SOOS
+select * from SOOS
+delete from SOOD
+select * from SOOD
+delete from SOST
+select * from SOST
+

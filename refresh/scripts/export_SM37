@@ -1,0 +1,25 @@
+Export
+FILE='/usr/sap/trans/refresh/saved_tables/Saved_TABLE_SM37'
+CLIENT=000
+delete from TBTCA
+select * from TBTCA
+delete from TBTCB
+select * from TBTCB
+delete from TBTCCNTXT
+select * from TBTCCNTXT
+delete from TBTCCTXTT
+select * from TBTCCTXTT
+delete from TBTCCTXTTP
+select * from TBTCCTXTTP
+delete from TBTCI
+select * from TBTCI
+delete from TBTCJSTEP
+select * from TBTCJSTEP
+delete from TBTCO
+select * from TBTCO
+delete from TBTCP
+select * from TBTCP
+delete from TBTCR
+select * from TBTCR
+delete from TBTCS
+select * from TBTCS

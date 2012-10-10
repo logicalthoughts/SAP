@@ -1,0 +1,7 @@
+Export
+FILE='/usr/sap/trans/refresh/saved_tables/Saved_TABLE_TBDLS'
+CLIENT=0
+delete from TBDLS
+Select * from TBDLS
+delete from TBDLST
+select * from TBDLST

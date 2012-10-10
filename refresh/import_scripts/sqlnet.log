@@ -1,0 +1,38 @@
+
+
+***********************************************************************
+Fatal NI connect error 12537, connecting to:
+ (DESCRIPTION=(ADDRESS=(COMMUNITY=SAP.WORLD)(PROTOCOL=TCP)(HOST=eccqas)(PORT=1527))(CONNECT_DATA=(SID=RQ2)(GLOBAL_NAME=RQ2.WORLD)(CID=(PROGRAM=R3trans@eccqas1)(HOST=eccqas1)(USER=rq2adm))))
+
+  VERSION INFORMATION:
+	TNS for Solaris: Version 10.2.0.2.0 - Production
+	TCP/IP NT Protocol Adapter for Solaris: Version 10.2.0.2.0 - Production
+  Time: 15-OCT-2008 14:25:47
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12537
+    TNS-12537: TNS:connection closed
+    ns secondary err code: 12560
+    nt main err code: 507
+    TNS-00507: Connection closed
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12537, connecting to:
+ (DESCRIPTION=(ADDRESS=(COMMUNITY=SAP.WORLD)(PROTOCOL=TCP)(HOST=eccqas)(PORT=1527))(CONNECT_DATA=(SID=RQ2)(GLOBAL_NAME=RQ2.WORLD)(CID=(PROGRAM=R3trans)(HOST=eccqas1)(USER=rq2adm))))
+
+  VERSION INFORMATION:
+	TNS for Solaris: Version 10.2.0.2.0 - Production
+	TCP/IP NT Protocol Adapter for Solaris: Version 10.2.0.2.0 - Production
+  Time: 15-OCT-2008 14:25:47
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12537
+    TNS-12537: TNS:connection closed
+    ns secondary err code: 12560
+    nt main err code: 507
+    TNS-00507: Connection closed
+    nt secondary err code: 0
+    nt OS err code: 0

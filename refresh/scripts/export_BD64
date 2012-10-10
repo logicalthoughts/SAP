@@ -1,0 +1,7 @@
+Export
+FILE='/usr/sap/trans/refresh/saved_tables/Saved_TABLE_BD64'
+CLIENT=100
+delete from TB000
+select * from TB000
+delete from TB000T
+select * from TB000T

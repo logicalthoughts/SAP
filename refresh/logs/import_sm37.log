@@ -1,0 +1,217 @@
+4 ETW000 R3trans version 6.14 (release 701 - 23.07.10 - 09:23:00).
+4 ETW000 unicode enabled version
+4 ETW000 ===============================================
+4 ETW000 
+4 ETW000 date&time   : 02.11.2011 - 21:10:03
+4 ETW000 control file: /usr/sap/trans/refresh/scripts/import_SM37
+4 ETW000 > Import
+4 ETW000 > FILE='/usr/sap/trans/refresh/saved_tables/Saved_TABLE_SM37'
+4 ETW000 > CLIENT=000
+4 ETW000 R3trans was called as follows: R3trans -w /usr/sap/trans/refresh/logs/import_sm37.log /usr/sap/trans/refresh/scripts/import_SM37
+4 ETW000 Connected to DBMS = ORACLE --- dbs_ora_tnsname = 'RQ2' --- SYSTEM = 'RQ2'.
+4 ETW690 COMMIT "0" "0"
+4 ETW000  trace at level 1 opened for a given file pointer
+4 ETW000 
+4 ETW000 ================== STEP 1 =====================
+4 ETW000 date&time        : 02.11.2011 - 21:10:03
+4 ETW000 function         : IMPORT
+4 ETW000 data file        : /usr/sap/trans/refresh/saved_tables/Saved_TABLE_SM37
+4 ETW000 buffersync       : YES
+4 ETW000 client           : 000
+4 ETW000 repeatimport     : NO
+4 ETW000 repeatclimport   : NO
+4 ETW000 c.s.i.           : NO
+4 ETW000 l.s.m.           : VECTOR
+4 ETW000 charsetadapt     : YES
+4 ETW000 def. charset     : WEUROPEAN
+4 ETW000 commit           : 100000
+4 ETW000 table cache      : dynamic
+4 ETW000 
+4 ETW000 Data file is compressed with algorithm 'L'.
+4 ETW000 export timestamp: 20111030172802
+3 ETW709 "701 "
+4 ETW000 exported with R3trans version: 23.07.10 - 09:23:00
+4 ETW000 Source System = Solaris on SPARCV9 CPU on DBMS = ORACLE --- dbs_ora_tnsname = 'RQ2' --- SYSTEM = 'RQ2'.
+3WETW000 source system == target system.
+4 ETW000 
+4 ETW000 language vector during export: ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdi(),./:;&
+4 ETW000 language vector during export: ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdi(),./:;& (ISO-ARHECSDEENFRELHUITJADAPLZFNLNOPTSKRUESTRFISVBGLTLVZ1SRZHTHKOROSLHRMSUKETAFISCASHIDZ2Z3Z4Z5Z6Z7Z8Z9)
+4 ETW000 lsm during export: VECTOR
+3 ETW674Xstart import of "              000000R3TRCNTDTBTCA" ...
+4 ETW000 no entries from TBTCA (*) deleted (table is empty).
+4 ETW675 end import of "              000000R3TRCNTDTBTCA".
+3 ETW674Xstart import of "              000000R3TRCNTDTBTCA" ...
+4 ETW675 end import of "              000000R3TRCNTDTBTCA".
+3 ETW674Xstart import of "              000000R3TRCNTDTBTCB" ...
+4 ETW000 no entries from TBTCB (*) deleted (table is empty).
+4 ETW675 end import of "              000000R3TRCNTDTBTCB".
+3 ETW674Xstart import of "              000000R3TRCNTDTBTCB" ...
+4 ETW675 end import of "              000000R3TRCNTDTBTCB".
+3 ETW674Xstart import of "              000000R3TRCNTDTBTCCNTXT" ...
+4 ETW000 6029 entries from TBTCCNTXT (%) deleted.
+4 ETW690 COMMIT "1736352" "1736352"
+4 ETW675 end import of "              000000R3TRCNTDTBTCCNTXT".
+3 ETW674Xstart import of "              000000R3TRCNTDTBTCCNTXT" ...
+4 ETW690 COMMIT "144000" "1880352"
+4 ETW690 COMMIT "144000" "2024352"
+4 ETW690 COMMIT "144000" "2168352"
+4 ETW690 COMMIT "144000" "2312352"
+4 ETW690 COMMIT "144000" "2456352"
+4 ETW690 COMMIT "144000" "2600352"
+4 ETW690 COMMIT "144000" "2744352"
+4 ETW690 COMMIT "144000" "2888352"
+4 ETW690 COMMIT "144000" "3032352"
+4 ETW690 COMMIT "144000" "3176352"
+4 ETW690 COMMIT "144000" "3320352"
+4 ETW000 5919 entries for TBTCCNTXT inserted (*).
+4 ETW690 COMMIT "120672" "3441024"
+4 ETW675 end import of "              000000R3TRCNTDTBTCCNTXT".
+3 ETW674Xstart import of "              000000R3TRCNTDTBTCCTXTT" ...
+4 ETW000   6 entries from TBTCCTXTT (%) deleted.
+4 ETW675 end import of "              000000R3TRCNTDTBTCCTXTT".
+3 ETW674Xstart import of "              000000R3TRCNTDTBTCCTXTT" ...
+4 ETW000   6 entries for TBTCCTXTT inserted (*).
+4 ETW675 end import of "              000000R3TRCNTDTBTCCTXTT".
+3 ETW674Xstart import of "              000000R3TRCNTDTBTCCTXTTP" ...
+4 ETW000  [dev trc     ,00000]  Wed Nov  2 21:10:07 2011                                             3601610  3.601610
+4 ETW000  [dev trc     ,00000]  table logging switched off for all clients                                38  3.601648
+4 ETW000   6 entries from TBTCCTXTTP (%) deleted.
+4 ETW675 end import of "              000000R3TRCNTDTBTCCTXTTP".
+3 ETW674Xstart import of "              000000R3TRCNTDTBTCCTXTTP" ...
+4 ETW000   6 entries for TBTCCTXTTP inserted (*).
+4 ETW675 end import of "              000000R3TRCNTDTBTCCTXTTP".
+3 ETW674Xstart import of "              000000R3TRCNTDTBTCI" ...
+4 ETW000 no entries from TBTCI (*) deleted (table is empty).
+4 ETW675 end import of "              000000R3TRCNTDTBTCI".
+3 ETW674Xstart import of "              000000R3TRCNTDTBTCI" ...
+4 ETW675 end import of "              000000R3TRCNTDTBTCI".
+3 ETW674Xstart import of "              000000R3TRCNTDTBTCJSTEP" ...
+4 ETW000 no entries from TBTCJSTEP (*) deleted (table is empty).
+4 ETW675 end import of "              000000R3TRCNTDTBTCJSTEP".
+3 ETW674Xstart import of "              000000R3TRCNTDTBTCJSTEP" ...
+4 ETW675 end import of "              000000R3TRCNTDTBTCJSTEP".
+3 ETW674Xstart import of "              000000R3TRCNTDTBTCO" ...
+4 ETW000 13706 entries from TBTCO (%) deleted.
+4 ETW690 COMMIT "17766456" "21207480"
+4 ETW675 end import of "              000000R3TRCNTDTBTCO".
+3 ETW674Xstart import of "              000000R3TRCNTDTBTCO" ...
+4 ETW690 COMMIT "648000" "21855480"
+4 ETW690 COMMIT "648000" "22503480"
+4 ETW690 COMMIT "648000" "23151480"
+4 ETW690 COMMIT "648000" "23799480"
+4 ETW690 COMMIT "648000" "24447480"
+4 ETW690 COMMIT "648000" "25095480"
+4 ETW690 COMMIT "648000" "25743480"
+4 ETW690 COMMIT "648000" "26391480"
+4 ETW690 COMMIT "648000" "27039480"
+4 ETW690 COMMIT "648000" "27687480"
+4 ETW690 COMMIT "648000" "28335480"
+4 ETW690 COMMIT "648000" "28983480"
+4 ETW690 COMMIT "648000" "29631480"
+4 ETW690 COMMIT "648000" "30279480"
+4 ETW690 COMMIT "648000" "30927480"
+4 ETW690 COMMIT "648000" "31575480"
+4 ETW690 COMMIT "648000" "32223480"
+4 ETW690 COMMIT "648000" "32871480"
+4 ETW690 COMMIT "648000" "33519480"
+4 ETW690 COMMIT "648000" "34167480"
+4 ETW690 COMMIT "648000" "34815480"
+4 ETW690 COMMIT "648000" "35463480"
+4 ETW690 COMMIT "648000" "36111480"
+4 ETW690 COMMIT "648000" "36759480"
+4 ETW690 COMMIT "648000" "37407480"
+4 ETW690 COMMIT "648000" "38055480"
+4 ETW690 COMMIT "648000" "38703480"
+4 ETW690 COMMIT "648000" "39351480"
+4 ETW690 COMMIT "648000" "39999480"
+4 ETW690 COMMIT "648000" "40647480"
+4 ETW690 COMMIT "648000" "41295480"
+4 ETW690 COMMIT "648000" "41943480"
+4 ETW690 COMMIT "648000" "42591480"
+4 ETW690 COMMIT "648000" "43239480"
+4 ETW000 17132 entries for TBTCO inserted (*).
+4 ETW690 COMMIT "171072" "43410552"
+4 ETW675 end import of "              000000R3TRCNTDTBTCO".
+3 ETW674Xstart import of "              000000R3TRCNTDTBTCP" ...
+4 ETW000 13866 entries from TBTCP (%) deleted.
+4 ETW690 COMMIT "32501904" "75912456"
+4 ETW675 end import of "              000000R3TRCNTDTBTCP".
+3 ETW674Xstart import of "              000000R3TRCNTDTBTCP" ...
+4 ETW690 COMMIT "1172000" "77084456"
+4 ETW690 COMMIT "1172000" "78256456"
+4 ETW690 COMMIT "1172000" "79428456"
+4 ETW690 COMMIT "1172000" "80600456"
+4 ETW690 COMMIT "1172000" "81772456"
+4 ETW690 COMMIT "1172000" "82944456"
+4 ETW690 COMMIT "1172000" "84116456"
+4 ETW690 COMMIT "1172000" "85288456"
+4 ETW690 COMMIT "1172000" "86460456"
+4 ETW690 COMMIT "1172000" "87632456"
+4 ETW690 COMMIT "1172000" "88804456"
+4 ETW690 COMMIT "1172000" "89976456"
+4 ETW690 COMMIT "1172000" "91148456"
+4 ETW690 COMMIT "1172000" "92320456"
+4 ETW690 COMMIT "1172000" "93492456"
+4 ETW690 COMMIT "1172000" "94664456"
+4 ETW690 COMMIT "1172000" "95836456"
+4 ETW690 COMMIT "1172000" "97008456"
+4 ETW690 COMMIT "1172000" "98180456"
+4 ETW690 COMMIT "1172000" "99352456"
+4 ETW690 COMMIT "1172000" "100524456"
+4 ETW690 COMMIT "1172000" "101696456"
+4 ETW690 COMMIT "1172000" "102868456"
+4 ETW690 COMMIT "1172000" "104040456"
+4 ETW690 COMMIT "1172000" "105212456"
+4 ETW690 COMMIT "1172000" "106384456"
+4 ETW690 COMMIT "1172000" "107556456"
+4 ETW690 COMMIT "1172000" "108728456"
+4 ETW690 COMMIT "1172000" "109900456"
+4 ETW690 COMMIT "1172000" "111072456"
+4 ETW690 COMMIT "1172000" "112244456"
+4 ETW690 COMMIT "1172000" "113416456"
+4 ETW690 COMMIT "1172000" "114588456"
+4 ETW690 COMMIT "1172000" "115760456"
+4 ETW000 17139 entries for TBTCP inserted (*).
+4 ETW690 COMMIT "325816" "116086272"
+4 ETW675 end import of "              000000R3TRCNTDTBTCP".
+3 ETW674Xstart import of "              000000R3TRCNTDTBTCR" ...
+4 ETW000   3 entries from TBTCR (%) deleted.
+4 ETW675 end import of "              000000R3TRCNTDTBTCR".
+3 ETW674Xstart import of "              000000R3TRCNTDTBTCR" ...
+4 ETW000   3 entries for TBTCR inserted (*).
+4 ETW675 end import of "              000000R3TRCNTDTBTCR".
+3 ETW674Xstart import of "              000000R3TRCNTDTBTCS" ...
+4 ETW000  36 entries from TBTCS (%) deleted.
+4 ETW675 end import of "              000000R3TRCNTDTBTCS".
+3 ETW674Xstart import of "              000000R3TRCNTDTBTCS" ...
+4 ETW000  41 entries for TBTCS inserted (*).
+4 ETW675 end import of "              000000R3TRCNTDTBTCS".
+4 ETW000   0 tables in P-buffer synchronized.
+4 ETW000   1 tables in R-buffer synchronized.
+4 ETW690 COMMIT "39148" "116125420"
+4 ETW000 2475864 bytes read.
+4 ETW000 Transport overhead 1.3 %.
+4 ETW000 Data compressed to 3.8 %.
+4 ETW000 Duration: 44 sec (56269 bytes/sec).
+3 ETW710 "1" "0"
+4 ETW000 
+4 ETW000 Summary:
+4 ETW000 
+4 ETW000 Totally 33652 tabentries deleted.
+4 ETW000 Totally 40246 tabentries imported.
+4 ETW000 116125420 bytes modified in database.
+4 ETW000  [dev trc     ,00000]  Wed Nov  2 21:10:47 2011                                             40424153  44.025801
+4 ETW000  [dev trc     ,00000]  Disconnecting from ALL connections:                                       35  44.025836
+4 ETW000  [dev trc     ,00000]  Disconnecting from connection 0 ...                                       58  44.025894
+4 ETW000  [dev trc     ,00000]  Closing user session (con_hdl=0,svchp=0x10197d178,usrhp=0x10196cf08)
+4 ETW000                                                                                                1447  44.027341
+4 ETW000  [dev trc     ,00000]  Detaching from DB Server (con_hdl=0,svchp=0x10197d178,srvhp=0x101980f38)
+4 ETW000                                                                                                1595  44.028936
+4 ETW000  [dev trc     ,00000]  Now I'm disconnected from ORACLE                                        3342  44.032278
+4 ETW000  [dev trc     ,00000]  Disconnected from connection 0                                            65  44.032343
+4 ETW000  [dev trc     ,00000]  statistics db_con_commit (com_total=87, com_tx=87)                        48  44.032391
+4 ETW000  [dev trc     ,00000]  statistics db_con_rollback (roll_total=0, roll_tx=0)                      37  44.032428
+4 ETW000 Disconnected from database.
+4 ETW000 End of Transport (0004).
+4 ETW000 date&time: 02.11.2011 - 21:10:47
+4 ETW000 1 warning occured.

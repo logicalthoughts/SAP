@@ -1,0 +1,94 @@
+4 ETW000 R3trans version 6.22 (release 720 - 19.08.11 - 15:45:00).
+4 ETW000 unicode enabled version
+4 ETW000 ===============================================
+4 ETW000 
+4 ETW000 date&time   : 26.07.2012 - 09:38:26
+4 ETW000 control file: /usr/sap/trans/refresh/scripts/import_SM59
+4 ETW000 > Import
+4 ETW000 > FILE='/usr/sap/trans/refresh/saved_tables/Saved_TABLE_SM59'
+4 ETW000 > CLIENT=100
+4 ETW000 R3trans was called as follows: R3trans -w /usr/sap/trans/refresh/logs/import_sm59.log /usr/sap/trans/refresh/scripts/import_SM59
+4 ETW000 Connected to DBMS = ORACLE --- dbs_ora_tnsname = 'RQ2' --- SYSTEM = 'RQ2'.
+4 ETW690 COMMIT "0" "0"
+4 ETW000  trace at level 1 opened for a given file pointer
+4 ETW000 
+4 ETW000 ================== STEP 1 =====================
+4 ETW000 date&time        : 26.07.2012 - 09:38:26
+4 ETW000 function         : IMPORT
+4 ETW000 data file        : /usr/sap/trans/refresh/saved_tables/Saved_TABLE_SM59
+4 ETW000 buffersync       : YES
+4 ETW000 client           : 100
+4 ETW000 repeatimport     : NO
+4 ETW000 repeatclimport   : NO
+4 ETW000 c.s.i.           : NO
+4 ETW000 charsetadapt     : YES
+4 ETW000 def. charset     : WEUROPEAN
+4 ETW000 commit           : 100000
+4 ETW000 table cache      : dynamic
+4 ETW000 
+4 ETW000 Data file is compressed with algorithm 'L'.
+4 ETW000 export timestamp: 20120720214200
+3 ETW709 "702 "
+4 ETW000 exported with R3trans version: 19.08.11 - 15:45:00
+4 ETW000 Source System = Solaris on SPARCV9 CPU on DBMS = ORACLE --- dbs_ora_tnsname = 'RQ2' --- SYSTEM = 'RQ2'.
+3WETW000 source system == target system.
+4 ETW000 
+4 ETW000 language vector during export: ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdi(),./:;&
+4 ETW000 language vector during export: ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdi(),./:;& (ISO-ARHECSDEENFRELHUITJADAPLZFNLNOPTSKRUESTRFISVBGLTLVZ1SRZHTHKOROSLHRMSUKETAFISCASHIDZ2Z3Z4Z5Z6Z7Z8Z9)
+4 ETW000 lsm during export: VECTOR
+3 ETW674Xstart import of "              000000R3TRCNTDRFCATTRIB" ...
+4 ETW000  [     dev trc,00000]  table logging switched off for all clients                             40459  0.040459
+4 ETW000  88 entries from RFCATTRIB (%) deleted.
+4 ETW675 end import of "              000000R3TRCNTDRFCATTRIB".
+3 ETW674Xstart import of "              000000R3TRCNTDRFCATTRIB" ...
+4 ETW000  74 entries for RFCATTRIB inserted (*).
+4 ETW675 end import of "              000000R3TRCNTDRFCATTRIB".
+3 ETW674Xstart import of "              000000R3TRCNTDRFCDES" ...
+4 ETW000 115 entries from RFCDES (%) deleted.
+4 ETW690 COMMIT "909618" "909618"
+4 ETW675 end import of "              000000R3TRCNTDRFCDES".
+3 ETW674Xstart import of "              000000R3TRCNTDRFCDES" ...
+4 ETW000 102 entries for RFCDES inserted (*).
+4 ETW690 COMMIT "771732" "1681350"
+4 ETW675 end import of "              000000R3TRCNTDRFCDES".
+3 ETW674Xstart import of "              000000R3TRCNTDRFCDOC" ...
+4 ETW000 3478 entries from RFCDOC (%) deleted.
+4 ETW690 COMMIT "1732044" "3413394"
+4 ETW675 end import of "              000000R3TRCNTDRFCDOC".
+3 ETW674Xstart import of "              000000R3TRCNTDRFCDOC" ...
+4 ETW690 COMMIT "249000" "3662394"
+4 ETW690 COMMIT "249000" "3911394"
+4 ETW690 COMMIT "249000" "4160394"
+4 ETW690 COMMIT "249000" "4409394"
+4 ETW690 COMMIT "249000" "4658394"
+4 ETW690 COMMIT "249000" "4907394"
+4 ETW000 3465 entries for RFCDOC inserted (*).
+4 ETW690 COMMIT "231570" "5138964"
+4 ETW675 end import of "              000000R3TRCNTDRFCDOC".
+4 ETW000   3 tables in P-buffer synchronized.
+4 ETW000   0 tables in R-buffer synchronized.
+4 ETW690 COMMIT "0" "5138964"
+4 ETW000 61558 bytes read.
+4 ETW000 Transport overhead 1.4 %.
+4 ETW000 Data compressed to 2.4 %.
+4 ETW000 Duration: 2 sec (30779 bytes/sec).
+3 ETW710 "1" "0"
+4 ETW000 
+4 ETW000 Summary:
+4 ETW000 
+4 ETW000 Totally 3681 tabentries deleted.
+4 ETW000 Totally 3641 tabentries imported.
+4 ETW000 5138964 bytes modified in database.
+4 ETW000  [     dev trc,00000]  Thu Jul 26 09:38:28 2012                                             2000035  2.040494
+4 ETW000  [     dev trc,00000]  Disconnecting from ALL connections:                                       38  2.040532
+4 ETW000  [     dev trc,00000]  Disconnecting from connection 0 ...                                       72  2.040604
+4 ETW000  [     dev trc,00000]  Closing user session (con=0, svc=102ba8318, usr=102c1dc30)               842  2.041446
+4 ETW000  [     dev trc,00000]  Server handle (con=0,svchp=102ba8318,srvhp=102bce800) detached          1978  2.043424
+4 ETW000  [     dev trc,00000]  Disconnected (con=0) from ORACLE.                                         58  2.043482
+4 ETW000  [     dev trc,00000]  Disconnected from connection 0                                            49  2.043531
+4 ETW000  [     dev trc,00000]  statistics db_con_commit (com_total=12, com_tx=11)                        49  2.043580
+4 ETW000  [     dev trc,00000]  statistics db_con_rollback (roll_total=0, roll_tx=0)                      50  2.043630
+4 ETW000 Disconnected from database.
+4 ETW000 End of Transport (0004).
+4 ETW000 date&time: 26.07.2012 - 09:38:28
+4 ETW000 1 warning occured.

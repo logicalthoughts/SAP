@@ -1,0 +1,5 @@
+Export
+FILE='/usr/sap/trans/refresh/saved_tables/Saved_TABLE_SPAD'
+CLIENT=100
+delete from TSPSV
+select * from TSPSV

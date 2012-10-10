@@ -1,0 +1,3 @@
+Import
+FILE='/usr/sap/trans/refresh/saved_tables/Saved_Table_SCOT_BAK'
+CLIENT=100

@@ -1,0 +1,5 @@
+Export
+FILE='/usr/sap/trans/refresh/saved_tables/Saved_TABLE_T000'
+CLIENT=0
+delete from T000
+select * from T000

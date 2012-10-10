@@ -1,0 +1,17 @@
+Export
+FILE='/usr/sap/trans/refresh/saved_tables/Saved_TABLE_WE20'
+CLIENT=100
+delete from EDPP1
+select * from EDPP1
+delete from T002
+select * from T002
+delete from T002T
+select * from T002T
+delete from TEDST
+select * from TEDST
+delete from TEDTT
+select * from TEDTT
+delete from EDMA
+select * from EDMA
+delete from EDMAT
+select * from EDMAT

@@ -1,0 +1,2 @@
+#!/bin/sh
+R3trans -w /usr/sap/trans/refresh/logs/export_worklist.log -u 1 /usr/sap/trans/refresh/scripts/export_worklist

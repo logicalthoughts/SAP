@@ -1,0 +1,5 @@
+Export
+FILE='/usr/sap/trans/refresh/saved_tables/Saved_TABLE_RZLLITAB'
+CLIENT=0
+delete from RZLLITAB
+select * from RZLLITAB

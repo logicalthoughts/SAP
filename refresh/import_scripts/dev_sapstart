@@ -1,0 +1,38 @@
+
+---------------------------------------------------
+trc file: "dev_sapstart", trc level: 1, release: "701"
+---------------------------------------------------
+
+Thu Aug  4 16:20:10 2011
+SigISetDefaultAction : default handling for signal 18
+SigISetIgnoreAction : SIG_IGN for signal 2
+SigISetIgnoreAction : SIG_IGN for signal 3
+
+Thu Aug  4 16:20:11 2011
+SigISetIgnoreAction : SIG_IGN for signal 2
+SigISetIgnoreAction : SIG_IGN for signal 3
+SigISetIgnoreAction : SIG_IGN for signal 2
+SigISetIgnoreAction : SIG_IGN for signal 3
+SigISetIgnoreAction : SIG_IGN for signal 2
+SigISetIgnoreAction : SIG_IGN for signal 3
+SigISetIgnoreAction : SIG_IGN for signal 2
+SigISetIgnoreActi
+Fri Aug  5 13:23:51 2011
+caught SIGINT (2)
+n : SIG_IGN for signal 2
+SigISetIgnoreAction : SIG_IGN for signal 3
+SigISetIgnoreAction : SIG_IGN for signal 2
+SigISetIgnoreAction : SIG_IGN for signal 3
+SigISetIgnoreAction : SIG_IGN for signal 2
+SigISetIgnoreAction : SIG_IGN for signal 3
+SigISetIgnoreAction : SIG_IGN for signal 2
+SigISetIgnoreAction : SIG_IGN for signal 3
+SigISetIgnoreAction : SIG_IGN for signal 2
+SigISetIgnoreAction : SIG_IGN for signal 3
+SigISetIgnoreAction : SIG_IGN for signal 2
+SigISetIgnoreAction : SIG_IGN for signal 3
+SigISetIgnoreAction : SIG_IGN for signal 2
+SigISetIgnoreAction : SIG_IGN for signal 3
+
+Fri Aug  5 13:23:01 2011
+caught SIGINT (2)

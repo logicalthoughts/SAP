@@ -1,0 +1,4 @@
+Export
+FILE='/usr/sap/trans/refresh/saved_tables/Saved_TABLE_APQI'
+CLIENT=100
+delete from APQI

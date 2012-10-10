@@ -1,0 +1,9 @@
+Export
+FILE='/usr/sap/trans/refresh/saved_tables/Saved_TABLE_SM59'
+CLIENT=100
+delete from RFCATTRIB
+select * from RFCATTRIB
+delete from RFCDES
+select * from RFCDES
+delete from RFCDOC
+select * from RFCDOC

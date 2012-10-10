@@ -1,0 +1,80 @@
+4 ETW000 R3trans version 6.22 (release 720 - 19.08.11 - 15:45:00).
+4 ETW000 unicode enabled version
+4 ETW000 ===============================================
+4 ETW000 
+4 ETW000 date&time   : 20.07.2012 - 16:42:00
+4 ETW000 control file: /usr/sap/trans/refresh/scripts/export_SM59
+4 ETW000 > Export
+4 ETW000 > FILE='/usr/sap/trans/refresh/saved_tables/Saved_TABLE_SM59'
+4 ETW000 > CLIENT=100
+4 ETW000 > delete from RFCATTRIB
+4 ETW000 > select * from RFCATTRIB
+4 ETW000 > delete from RFCDES
+4 ETW000 > select * from RFCDES
+4 ETW000 > delete from RFCDOC
+4 ETW000 > select * from RFCDOC
+4 ETW000 R3trans was called as follows: R3trans -w /usr/sap/trans/refresh/logs/export_sm59.log /usr/sap/trans/refresh/scripts/export_SM59
+4 ETW000 Connected to DBMS = ORACLE --- dbs_ora_tnsname = 'RQ2' --- SYSTEM = 'RQ2'.
+4 ETW690 COMMIT "0" "0"
+4 ETW000  trace at level 1 opened for a given file pointer
+4 ETW000 
+4 ETW000 ================== STEP 1 =====================
+4 ETW000 date&time        : 20.07.2012 - 16:42:00
+4 ETW000 function         : EXPORT
+4 ETW000 data file        : /usr/sap/trans/refresh/saved_tables/Saved_TABLE_SM59
+4 ETW000 buffersync       : YES
+4 ETW000 client           : 100
+4 ETW000 langdeletions    : YES
+4 ETW000 Syslog: k CQC : rscpexcc-getSetting&                                 rscpexcc 12
+4 ETW000 GetDBMigrateCodePagesLangs uses TCP0D, TCPDB, TCP0C.
+4 ETW000 Language    : ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdi(),./:;& (ISO-ARHECSDEENFRELHUITJADAPLZFNLNOPTSKRUESTRFISVBGLTLVZ1SRZHTHKOROSLHRMSUKETAFISCASHIDZ2Z3Z4Z5Z6Z7Z8Z9)
+4 ETW000 Compression      : L
+4 ETW000 commit           : 100000
+4 ETW000 table cache      : dynamic
+4 ETW000 
+3 ETW678Xstart export of "R3TRCNTDRFCATTRIB" ...
+4 ETW000   0 entries from TADIR exported (R3TRCNTDRFCATTRIB                               ). 
+4 ETW679 end export of "R3TRCNTDRFCATTRIB".
+3 ETW678Xstart export of "R3TRCNTDRFCATTRIB" ...
+4 ETW000 The corresponding TADIR entry was already selected before (R3TRCNTDRFCATTRIB).
+4 ETW000  74 entries from RFCATTRIB exported (*). 
+4 ETW679 end export of "R3TRCNTDRFCATTRIB".
+3 ETW678Xstart export of "R3TRCNTDRFCDES" ...
+4 ETW000   0 entries from TADIR exported (R3TRCNTDRFCDES                                  ). 
+4 ETW679 end export of "R3TRCNTDRFCDES".
+3 ETW678Xstart export of "R3TRCNTDRFCDES" ...
+4 ETW000 The corresponding TADIR entry was already selected before (R3TRCNTDRFCDES).
+4 ETW000 102 entries from RFCDES exported (*). 
+4 ETW679 end export of "R3TRCNTDRFCDES".
+3 ETW678Xstart export of "R3TRCNTDRFCDOC" ...
+4 ETW000   0 entries from TADIR exported (R3TRCNTDRFCDOC                                  ). 
+4 ETW679 end export of "R3TRCNTDRFCDOC".
+3 ETW678Xstart export of "R3TRCNTDRFCDOC" ...
+4 ETW000 The corresponding TADIR entry was already selected before (R3TRCNTDRFCDOC).
+4 ETW000 3465 entries from RFCDOC exported (*). 
+4 ETW679 end export of "R3TRCNTDRFCDOC".
+4 ETW000 61558 bytes written.
+4 ETW000 Transport overhead 1.4 %.
+4 ETW000 Data compressed to 2.4 %.
+4 ETW000 Duration: 1 sec (61558 bytes/sec).
+4 ETW000   0 tables in P-buffer synchronized.
+4 ETW000   0 tables in R-buffer synchronized.
+4 ETW690 COMMIT "0" "0"
+4 ETW000 
+4 ETW000 Summary:
+4 ETW000 
+4 ETW000   3 DELETE commands exported
+4 ETW000 Totally 3641 tabentries exported
+4 ETW000 
+4 ETW000  [     dev trc,00000]  Fri Jul 20 16:42:01 2012                                              375450  0.375450
+4 ETW000  [     dev trc,00000]  Disconnecting from ALL connections:                                       30  0.375480
+4 ETW000  [     dev trc,00000]  Disconnecting from connection 0 ...                                       53  0.375533
+4 ETW000  [     dev trc,00000]  Closing user session (con=0, svc=102ba8418, usr=102c1e470)               428  0.375961
+4 ETW000  [     dev trc,00000]  Server handle (con=0,svchp=102ba8418,srvhp=102bcef30) detached          1365  0.377326
+4 ETW000  [     dev trc,00000]  Disconnected (con=0) from ORACLE.                                         48  0.377374
+4 ETW000  [     dev trc,00000]  Disconnected from connection 0                                            39  0.377413
+4 ETW000  [     dev trc,00000]  statistics db_con_commit (com_total=2, com_tx=1)                          42  0.377455
+4 ETW000  [     dev trc,00000]  statistics db_con_rollback (roll_total=0, roll_tx=0)                      41  0.377496
+4 ETW000 Disconnected from database.
+4 ETW000 End of Transport (0000).
+4 ETW000 date&time: 20.07.2012 - 16:42:01

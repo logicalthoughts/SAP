@@ -1,0 +1,4 @@
+Export
+FILE='/usr/sap/trans/refresh/saved_tables/Saved_TABLE_WORKLIST'
+CLIENT=100
+USE COMMANDFILE insert transport 

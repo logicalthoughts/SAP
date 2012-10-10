@@ -1,0 +1,5 @@
+Export
+FILE='/usr/sap/trans/refresh/saved_tables/Saved_TABLE_TWPURLSVR'
+CLIENT=0
+delete from TWPURLSVR
+select * from TWPURLSVR

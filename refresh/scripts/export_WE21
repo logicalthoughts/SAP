@@ -1,0 +1,7 @@
+Export
+FILE='/usr/sap/trans/refresh/saved_tables/Saved_TABLE_WE21'
+CLIENT=100
+delete from EDIPORT
+select * from EDIPORT
+delete from EDIPOA
+select * from EDIPOA
